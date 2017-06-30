@@ -169,7 +169,7 @@ main > section {
 .sec-title h2 {
     font-size: 36px;
     margin: 0 0 30px;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
     position: relative;
     text-transform: uppercase;
 }
@@ -182,10 +182,13 @@ main > section {
     border-bottom: 1px solid #009ee3;
     content: "";
     display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
+    /* left: 45%; */
+    /* bottom: -32px; */
+    /* position: absolute; */
     width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 
 .sec-title.white h2:after {
@@ -262,6 +265,9 @@ main > section {
 	background-position: -200px 0;
 }
 
+.image-slider{
+	height: 300px;
+}
 
 
 
@@ -1224,6 +1230,12 @@ textarea.form-control {
 	}
 }
 
+@media (max-width:991px){
+    .image-slider {
+		display: none;
+	}
+}
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
@@ -1459,7 +1471,7 @@ textarea.form-control {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     .sec-title h2:after {
-        left: 38%;
+        left: 39.5%;
     }
 
 /* home slider */
@@ -1508,7 +1520,7 @@ textarea.form-control {
 
 /* social */
     .social-button li:nth-child(2) {
-        margin: 0 50px;
+        /*margin: 0 50px;*/
     }
 
     .social-button li a {

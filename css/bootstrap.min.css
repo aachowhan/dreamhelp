@@ -5135,7 +5135,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border-color: #101010
+    /*border-color: #101010*/
+	border-color: #fff
 }
 
 .navbar-inverse .navbar-nav>.open>a,
