@@ -208,7 +208,7 @@ main > section {
 }
 
 .appstore{
-	background: url(/img/sprites.png) no-repeat;
+	background: url(../img/sprites.png) no-repeat;
     display: block;
     margin: 10px auto;
     -webkit-transition: all 0.25s ease-in-out;
